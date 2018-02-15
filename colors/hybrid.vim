@@ -319,7 +319,8 @@ exe "hi! SpellLocal"    .s:fg_aqua        .s:bg_darkcyan    .s:fmt_undr
 exe "hi! SpellBad"      .s:fg_red         .s:bg_darkred     .s:fmt_none
 exe "hi! SpellRare"     .s:fg_purple      .s:bg_darkpurple  .s:fmt_undr
 exe "hi! StatusLine"    .s:fg_comment     .s:bg_background  .s:fmt_revr
-exe "hi! StatusLineNC"  .s:fg_window      .s:bg_comment     .s:fmt_revr
+"exe "hi! StatusLineNC"  .s:fg_window      .s:bg_comment     .s:fmt_revr
+exe "hi! StatusLineNC"  .s:fg_window      .s:bg_comment     .s:fmt_none
 exe "hi! TabLine"       .s:fg_foreground  .s:bg_darkcolumn  .s:fmt_revr
 "   TabLineFill"
 "   TabLineSel"
